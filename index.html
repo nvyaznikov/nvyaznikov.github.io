@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Delivery</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea possimus aut dignissimos tempora deserunt perferendis magni modi. Itaque sit accusantium velit adipisci hic placeat praesentium porro doloribus labore laudantium?">
+    <meta name="keywords" content="my_pizza, my pizza, pizza delivery">
+    <link rel="canonical" href="https://my-pizza.ru/">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/favicon-194.png" size="194x194">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <meta name="Author" content="Петр Петров">
+    <meta name="Copyright" content="My_pizza">
+    <meta name="Address" content="г. Москва, ул. Ленина 1">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body id="top">
+    <a href="#top" class="arrow_top">
+        <i class="ti ti-chevron-up"></i>
+    </a>
+    <header class="header">
+      <div class="container">
+        <!-- logo -->
+        <div class="logo">
+            <a href=" ">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/logo.avif">
+                    <source type="image/webp" srcset="img/webp/logo.webp">
+                    <source type="image/png" srcset="img/logo.png">
+                    <img src="img/avif/logo.avif" width="55" height="69" loading="lazy" alt="My pizza logo">
+                </picture>
+            </a>
+        </div>
+
+        <!-- menu -->
+        <nav class="menu">
+          <ul class="menu_items">
+            <li class="menu_item">
+              <a href="" class="menu_item_link active">Home</a>
+            </li>
+            <li class="menu_item">
+              <a href="#catalog" class="menu_item_link">Catalog</a>
+            </li>
+            <li class="menu_item">
+              <a href="#reviews" class="menu_item_link">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- options -->
+        <div class="header_options">
+            <div class="cart">
+                <i class="ti ti-shopping-cart"></i>
+                <div class="amount_cart">2</div>
+            </div>
+            <div class="account">
+                <i class="ti ti-user"></i>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner pizza delivery -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-5">
+            <h1 class="banner_heading">Pizza delivery</h1>
+            <p class="banner_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda debitis ducimus, odio reiciendis vero exercitationem
+              aliquid nam inventore eius reprehenderit nisi blanditiis iste
+              eligendi sint voluptate eos expedita quos.
+            </p>
+            <a href="" class="button">
+                Order delivery</a>
+          </div>
+
+            <div class="col-7">
+                <div class="banner_pizza">
+                    <picture>
+                        <source type="image/avif" srcset="img/avif/banner-small.avif" media="(max-width: 576px)">
+                        <source type="image/avif" srcset="img/avif/banner-medium.avif" media="(max-width: 768px)">
+                        <source type="image/avif" srcset="img/avif/banner.avif">
+        
+                        <source type="image/webp" srcset="img/webp/banner-small.webp" media="(max-width: 576px)">
+                        <source type="image/webp" srcset="img/webp/banner-medium.webp" media="(max-width: 768px)">
+                        <source type="image/webp" srcset="img/webp/banner.webp">
+        
+                        <source type="image/jpeg" srcset="img/banner-small.jpg" media="(max-width: 576px)">
+                        <source type="image/jpeg" srcset="img/banner-medium.jpg" media="(max-width: 768px)">
+                        <source type="image/jpeg" srcset="img/banner.jpg">
+                        
+                        <img src="img/avif/banner.avif" width="687" height="687" loading="lazy" alt="Pizza">
+                    </picture>
+                    
+                    <div class="banner_heading_pizza banner_smile"> 
+                        <span>😋</span>
+                        Om-nom-nom...
+                    </div>
+
+                    <div class="banner_heading_pizza banner_lover">
+                        <span>🥰</span> 
+                        Soooo delicious!
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products pizza -->
+    <section id="catalog" class="products">
+      <div class="indent container">
+        <h2 class="products_heading">Products</h2>
+        
+        <div class="product_filter">
+            <div class="product_filter_block">
+                <div class="list_heading">
+                    <span>Size</span>
+                    <i class="ti ti-chevron-down"></i>
+                </div>
+                <ul class="list">
+                    <li class="list_item">
+                        <div class="active">All</div>
+                    </li>
+                    <li class="list_item">Small</li>
+                    <li class="list_item">Middle</li>
+                    <li class="list_item">Big</li>
+                </ul>
+            </div>
+            <div class="product_filter_block">
+                <div class="list_heading">
+                    <span>Type of dough</span>
+                    <i class="ti ti-chevron-down"></i>
+                </div>
+                <ul class="list">
+                    <li class="list_item">
+                        <div class="active">All</div>
+                    </li>
+                    <li class="list_item">Traditional</li>
+                    <li class="list_item">Thin</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-3">
+                <div class="product_img">
+                    <picture>
+                        <source type="image/avif" srcset="img/avif/product-1.avif">
+                        <source type="image/webp" srcset="img/webp/product-1.webp">
+                        <source type="image/png" srcset="img/product-1.png">
+                        <img src="img/avif/product-1.avif" width="248" height="248" loading="lazy" alt="Pizza Mixik">
+                    </picture>
+            </div>
+            <h3 class="product_heading">Pizza Mixik</h3>
+            <p class="product_description">
+              Quarter pizza with ham, chicken, tomatoes, feta cheese,
+              mozzarella, signature alfredo sauce
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <div class="product_label_new">New</div>
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-2.avif">
+                    <source type="image/webp" srcset="img/webp/product-2.webp">
+                    <source type="image/png" srcset="img/product-2.png">
+                    <img src="img/avif/product-2.avif" width="248" height="248" loading="lazy" alt="Pizza Julien">
+                </picture>
+            </div>
+            <h3 class="product_heading">Pizza Julien</h3>
+            <p class="product_description">
+              Chicken, champignons, creamy mushroom sauce, red onion, garlic,
+              mozzarella, cheddar and parmesan cheese mixture, signature alfredo
+              sauce
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <div class="product_label_bestseller">Bestseller</div>
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-3.avif">
+                    <source type="image/webp" srcset="img/webp/product-3.webp">
+                    <source type="image/png" srcset="img/product-3.png">
+                    <img src="img/avif/product-3.avif" width="248" height="248" loading="lazy" alt="Pepperoni fresh">
+                </picture>
+            </div>
+            <h3 class="product_heading">Pepperoni fresh</h3>
+            <p class="product_description">
+              Spicy pepperoni, increased portion of mozzarella, tomatoes,
+              signature tomato sauce
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>                
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-4.avif">
+                    <source type="image/webp" srcset="img/webp/product-4.webp">
+                    <source type="image/png" srcset="img/product-4.png">
+                    <img src="img/avif/product-4.avif" width="248" height="248" loading="lazy" alt="Ham and cheese">
+                </picture>
+            </div>
+            <h3 class="product_heading">Ham and cheese</h3>
+            <p class="product_description">
+              Ham, mozzarella, special alfredo sauce
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <div class="product_label_bestseller">Bestseller</div>
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-5.avif">
+                    <source type="image/webp" srcset="img/webp/product-5.webp">
+                    <source type="image/png" srcset="img/product-5.png">
+                    <img src="img/avif/product-5.avif" width="248" height="248" loading="lazy" alt="Double chick">
+                </picture>
+            </div>
+            <h3 class="product_heading">Double chick</h3>
+            <p class="product_description">
+              Chicken, mozzarella, special alfredo sauce
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-6.avif">
+                    <source type="image/webp" srcset="img/webp/product-6.webp">
+                    <source type="image/png" srcset="img/product-6.png">
+                    <img src="img/avif/product-6.avif" width="248" height="248" loading="lazy" alt="Chorizo fresh">
+                </picture>
+            </div>
+            <h3 class="product_heading">Chorizo fresh</h3>
+            <p class="product_description">
+              Signature tomato sauce, mozzarella, spicy chorizo, sweet pepper
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-7.avif">
+                    <source type="image/webp" srcset="img/webp/product-7.webp">
+                    <source type="image/png" srcset="img/product-7.png">
+                    <img src="img/avif/product-7.avif" width="248" height="248" loading="lazy" alt="Vegetables and mushrooms">
+                </picture>
+            </div>
+            <h3 class="product_heading">Vegetables and mushrooms</h3>
+            <p class="product_description">
+              Champignons, tomatoes, sweet peppers, red onions, cheese cubes,
+              mozzarella, signature tomato sauce, Italian herbs
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="product_img">
+                <div class="product_label_new">New</div>
+                <picture>
+                    <source type="image/avif" srcset="img/avif/product-8.avif">
+                    <source type="image/webp" srcset="img/webp/product-8.webp">
+                    <source type="image/png" srcset="img/product-8.png">
+                    <img src="img/avif/product-8.avif" width="248" height="248" loading="lazy" alt="Hawaiian">
+                </picture>
+            </div>
+            <h3 class="product_heading">Hawaiian</h3>
+            <p class="product_description">
+              Signature alfredo sauce, chicken, mozzarella, pineapples
+            </p>
+            <div class="product_price_order">
+              <div class="product_price">789 ₽</div>
+              <a href="" class="product_button">
+                <i class="ti ti-shopping-cart"></i>
+                <span>Order</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <picture>
+            <source type="image/avif" srcset="img/avif/img-arugula.avif">
+            <source type="image/webp" srcset="img/webp/img-arugula.webp">
+            <source type="image/png" srcset="img/img-arugula.png">
+            <img src="img/img-arugula.png" class="img_arugula" width="380" height="auto" loading="lazy" alt="Arugula">
+        </picture>
+
+        <picture>
+            <source type="image/avif" srcset="img/avif/img-basil.avif">
+            <source type="image/webp" srcset="img/webp/img-basil.webp">
+            <source type="image/png" srcset="img/img-basil.png">
+            <img src="img/avif/img-basil.avif" class="img_basil" width="200" height="auto" loading="lazy" alt="Basil">
+        </picture>
+        
+      </div>
+    </section>
+
+
+    <!-- reviews person -->
+    <section class="reviews" id="reviews"> 
+        <div class="indent container">
+            <h2 class="reviews_heading">Reviews</h2>
+
+        <div class="row">  
+            <div class="col-4">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/review-1.avif">
+                    <source type="image/webp" srcset="img/webp/review-1.webp">
+                    <source type="image/jpeg" srcset="img/review-1.jpg">
+                    <img src="img/avif/review-1.avif" width="100" height="100" loading="lazy" alt="Jona Leoner">
+                </picture>
+              <h3 class="review_fullname">Jona Leoner</h3>
+              <p class="review_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus dolorem nostrum minima odit fugiat velit praesentium commodi atque blanditiis repudiandae, neque expedita omnis nobis minus ipsa illo veniam illum!</p>
+              <div class="review_grade">★★★★★</div>
+            </div>
+          
+
+        
+            <div class="col-4">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/review-2.avif">
+                    <source type="image/webp" srcset="img/webp/review-2.webp">
+                    <source type="image/jpeg" srcset="img/review-2.jpg">
+                    <img src="img/avif/review-2.avif" width="100" height="100" loading="lazy" alt="John Doe">
+                </picture>
+                <h3 class="review_fullname">John Doe</h3>
+                <p class="review_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta explicabo recusandae aperiam, nemo voluptatem quos et hic ducimus dignissimos, est atque corporis doloremque. Qui necessitatibus obcaecati saepe repellat quibusdam!</p>
+                <div class="review_grade">★★★★★</div>    
+            </div>
+          
+
+          
+            <div class="col-4">
+                <picture>
+                    <source type="image/avif" srcset="img/avif/review-3.avif">
+                    <source type="image/webp" srcset="img/webp/review-3.webp">
+                    <source type="image/jpeg" srcset="img/review-3.jpg">
+                    <img src="img/avif/review-3.avif" width="100" height="100" loading="lazy" alt="Heather Madlin">
+                </picture>
+                <h3 class="review_fullname">Heather Madlin</h3>
+                <p class="review_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laboriosam fuga inventore doloribus nesciunt corporis eligendi sapiente numquam suscipit odit architecto adipisci possimus autem ea quis, quidem aspernatur voluptatem incidunt!</p>
+                <div class="review_grade">★★★★★</div>    
+            </div>
+        </div>
+
+        </div>
+    </section> 
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="indent container">
+        <div class="row">
+            <div class="col-4">
+                <h3 class="footer_header">About us</h3>
+                <p class="footer_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quisquam quam ipsa quas vero illo, reprehenderit minima placeat laborum voluptatum fugiat delectus iure doloribus dolores</p>
+            </div>
+
+                <div class="col-2">
+                    <h3 class="footer_header">Links</h3>
+                    <nav class="links">
+                    <ul class="footer_links">
+                        <li class="footer_list footer_link">
+                            <a href="" class="footer_item_link">
+                            <i class="ti ti-home"></i>
+                            <span>Home</span>
+                        </li>
+                        <li class="footer_list footer_link">
+                            <a href="" class="footer_item_link">
+                            <i class="ti ti-pizza"></i>
+                            <span>Catalog</span>
+                        </li>
+                        <li class="footer_list footer_link">
+                            <a href="" class="footer_item_link">
+                            <i class="ti ti-message"></i>
+                            <span>Reviews</span>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+
+                <div class="col-2">
+                    <h3 class="footer_header">Social</h3>
+                    <nav class="links">
+                    <ul class="footer_links">
+                        <li class="footer_list footer_link">
+                                <a href="" class="footer_item_link">
+                                <i class="ti ti-brand-facebook"></i>
+                                <span>Facebook</span>
+                                
+                        </li>
+                        <li class="footer_list footer_link">
+                            <a href="" class="footer_item_link">
+                                <i class="ti ti-brand-instagram"></i>
+                                <span>Instagram</span>
+                        </li>
+                        <li class="footer_list footer_link">
+                            <a href="" class="footer_item_link">
+                                <i class="ti ti-brand-whatsapp"></i>
+                                <span>WhatsApp</span>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+
+                <div class="col-2">
+                    <h3 class="footer_header">Contacts us</h3>
+                    <nav class="contacts">
+                    <ul class="footer_contacts">
+                        <li class="footer_list">
+                            <a href="" class="footer_item_link">
+                                <i class="ti ti-phone"></i>
+                                <span>+7-(987)-65-43-21</span>
+                        </li>
+                        <li class="footer_list">
+                            <a href="" class="footer_item_link">
+                                <i class="ti ti-map-pin"></i>
+                                <span>Moscow, Lenina st.1</span>
+                        </li>
+                        <li class="footer_list footer_contact">
+                            <a href="" class="footer_item_link">
+                                <i class="ti ti-mail"></i>
+                                <span>info@pizza.ru</span>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>        
+        </div>
+    </section>
+
+  </body>
+</html>
